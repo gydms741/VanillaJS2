@@ -1,3 +1,4 @@
+//Prac
 //console.log(document);// HTML document be a JS
 //DOM : Document Object Module
 //JS is going to take all your elements in your html
