@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+h1{
+  color: #22a6b3;
+  transition: color .5s ease-in-out;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.clicked{
+  color: #7ed6df;
+}
