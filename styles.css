@@ -13,6 +13,12 @@ h1{
   cursor: pointer;
 }
 
-.clicked{
-  color: #7ed6df;
+.form,
+.greetings{
+  display: none;
 }
+
+.showing{
+  display: block;
+}
+

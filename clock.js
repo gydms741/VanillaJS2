@@ -1,3 +1,5 @@
+// setInterval을 통해 실시간으로 변화하는 시간을 볼 수 있음.
+
 const clockContainer = document.querySelector(".js-clock");
 const clockTitle = clockContainer.querySelector("h1");
 
