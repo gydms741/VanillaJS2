@@ -7,8 +7,21 @@ const form = document.querySelector(".js-form"),
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
 
+function saveName(text){
+    localStorage.setItem(USER_LS, text);
+}
+
+function handleSubmit(event){
+    event.preventDefault();//다음 event가 발생하는 것을 막아줌
+    const currentValue = input.value;
+    console.log(currentValue);
+    paintGreeting(currentValue);
+    saveName(currentValue);
+}    
+
 function askForName(){
     form.classList.add(SHOWING_CN);
+    form.addEventListener("submit", handleSubmit);
 }
 
 function paintGreeting(text){
